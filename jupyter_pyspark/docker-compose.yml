@@ -1,7 +1,7 @@
 version: "3.7"
 services:
     jupyter:
-      image: jupyter/pyspark-notebook
+      image: jupy_sentiment:latest
       container_name: jupy-pyspark-notebook
       volumes:
         - ./volume/datasets:/home/jovyan/work/datasets
